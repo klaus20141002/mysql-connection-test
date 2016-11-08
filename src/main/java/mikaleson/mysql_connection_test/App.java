@@ -16,7 +16,7 @@ import org.springframework.context.annotation.ImportResource;
  */
 @SpringBootApplication
 @ImportResource("classpath*:app-context.xml")
-@ComponentScan(basePackages="mikaleson.mysql_connection_test.com.niklaus")
+@ComponentScan
 public class App {
 
 	public static void main(String[] args) throws SQLException {
@@ -26,7 +26,6 @@ public class App {
 	
 	
 	
-
 }
 
 class MyTest implements Runnable{
