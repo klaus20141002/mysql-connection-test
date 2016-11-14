@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"></meta>
+<title>Insert title here</title>
+
+
+<link rel="stylesheet" type="text/css" media="all"
+	href="../css/style.css" th:href="@{/css/style.css}" />
+</head>
+<body>
+
+
+	<div class="page">
+		<h2>Login</h2>
+
+		<form method="post" action="/login">
+			<dl>
+				<dt>Username:</dt>
+				<dd>
+					<input type="text" name="username" />
+				</dd>
+				<dt>Password:</dt>
+				<dd>
+					<input type="password" name="password" />
+				</dd>
+				<dd>
+					<input type="submit" value="Login" />
+				</dd>
+			</dl>
+		</form>
+	</div>
+
+</body>
+</html>
