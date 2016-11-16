@@ -16,10 +16,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @UserController
  */
 
-@Controller("/u")
+@Controller
+@RequestMapping("/u")
 public class UserController {
 	
 	final Logger log = Logger.getLogger(this.getClass()) ;
+	
+	 
 	
 	@RequestMapping("/profile/{id}")
 	public String profile(@PathVariable(value="id") String id, Model model) {
@@ -30,6 +33,8 @@ public class UserController {
 		
 		
 		model.addAttribute("userInfo", "userinfo") ;
+		
+		
 		
 		
 		
