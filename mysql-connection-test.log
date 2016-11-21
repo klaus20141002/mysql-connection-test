@@ -16985,3 +16985,360 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 2016-11-18 15:58:50.643 DEBUG 96784 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/webjars/bootstrap/3.2.0/css/bootstrap.min.css] is: -1
 2016-11-18 15:58:50.683 DEBUG 96784 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
 2016-11-18 15:58:50.683 DEBUG 96784 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2016-11-21 11:29:37.849  INFO 124256 --- [restartedMain] mikaleson.mysql_connection_test.App      : Starting App on USER-20150317NC with PID 124256 (C:\Users\Administrator\git\mysql-connection-test\target\classes started by Administrator in C:\Users\Administrator\git\mysql-connection-test)
+2016-11-21 11:29:37.856 DEBUG 124256 --- [restartedMain] mikaleson.mysql_connection_test.App      : Running with Spring Boot v1.3.5.RELEASE, Spring v4.2.6.RELEASE
+2016-11-21 11:29:37.858  INFO 124256 --- [restartedMain] mikaleson.mysql_connection_test.App      : No active profile set, falling back to default profiles: default
+2016-11-21 11:29:39.250  INFO 124256 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@284a6007: startup date [Mon Nov 21 11:29:39 CST 2016]; root of context hierarchy
+2016-11-21 11:29:42.348  INFO 124256 --- [restartedMain] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from URL [file:/C:/Users/Administrator/git/mysql-connection-test/target/classes/app-context.xml]
+2016-11-21 11:29:44.956  INFO 124256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ab70dab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-21 11:29:46.769  INFO 124256 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-21 11:29:46.858  INFO 124256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-21 11:29:46.861  INFO 124256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-11-21 11:29:47.109  INFO 124256 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-21 11:29:47.110  INFO 124256 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7866 ms
+2016-11-21 11:29:48.146  INFO 124256 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-21 11:29:48.147  INFO 124256 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-21 11:29:48.151  INFO 124256 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-21 11:29:48.154  INFO 124256 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-21 11:29:48.169  INFO 124256 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-11-21 11:29:48.171  INFO 124256 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-21 11:29:49.158  INFO 124256 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-11-21 11:29:49.168  INFO 124256 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-11-21 11:29:49.168  INFO 124256 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-11-21 11:29:49.168  INFO 124256 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-11-21 11:29:49.168  INFO 124256 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-11-21 11:29:49.436  INFO 124256 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7aff5c78, org.springframework.security.web.context.SecurityContextPersistenceFilter@4cdd5d60, org.springframework.security.web.header.HeaderWriterFilter@981424, org.springframework.security.web.authentication.logout.LogoutFilter@5734511c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@72b4af06, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29e285e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46a913f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25fd945, org.springframework.security.web.session.SessionManagementFilter@75ec9e38, org.springframework.security.web.access.ExceptionTranslationFilter@5ac80130, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6dd7080d]
+2016-11-21 11:29:52.359  INFO 124256 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-11-21 11:29:52.409  INFO 124256 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-11-21 11:29:53.100  INFO 124256 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-11-21 11:29:53.105  INFO 124256 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-11-21 11:29:53.110  INFO 124256 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-11-21 11:29:53.710  INFO 124256 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-11-21 11:29:53.940  INFO 124256 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-11-21 11:29:54.095  INFO 124256 --- [restartedMain] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-11-21 11:29:55.601  INFO 124256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@284a6007: startup date [Mon Nov 21 11:29:39 CST 2016]; root of context hierarchy
+2016-11-21 11:29:55.794  INFO 124256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/b],methods=[GET]}" onto public java.lang.String mikaleson.mysql_connection_test.com.julie.blog.controller.BlogController.blogs(org.springframework.ui.Model)
+2016-11-21 11:29:55.796  INFO 124256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/b],methods=[POST]}" onto private java.lang.String mikaleson.mysql_connection_test.com.julie.blog.controller.BlogController.commentBlog(mikaleson.mysql_connection_test.com.julie.blog.dto.CommentsInfo,java.lang.Long,java.lang.Long)
+2016-11-21 11:29:55.798  INFO 124256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/u/profile/{id}]}" onto public java.lang.String mikaleson.mysql_connection_test.com.julie.user.controller.UserController.profile(java.lang.String,org.springframework.ui.Model)
+2016-11-21 11:29:55.800  INFO 124256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.index(javax.servlet.http.HttpSession)
+2016-11-21 11:29:55.801  INFO 124256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/send/{email}]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.email(java.lang.String)
+2016-11-21 11:29:55.802  INFO 124256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,java.lang.String)
+2016-11-21 11:29:55.802  INFO 124256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.login(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2016-11-21 11:29:55.803  INFO 124256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET || POST]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.logout(javax.servlet.http.HttpSession)
+2016-11-21 11:29:55.808  INFO 124256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-21 11:29:55.809  INFO 124256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-21 11:29:55.853  INFO 124256 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 11:29:55.853  INFO 124256 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 11:29:55.915  INFO 124256 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 11:30:00.633  INFO 124256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2016-11-21 11:30:00.766  INFO 124256 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-21 11:30:00.970  INFO 124256 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-21 11:30:00.978  INFO 124256 --- [restartedMain] mikaleson.mysql_connection_test.App      : Started App in 23.88 seconds (JVM running for 26.134)
+2016-11-21 11:30:14.009  INFO 124256 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-21 11:30:14.009  INFO 124256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-11-21 11:30:14.072  INFO 124256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 63 ms
+2016-11-21 11:30:14.496  INFO 124256 --- [http-nio-8080-exec-1] m.m.c.j.blog.controller.BlogController   : show blog list
+2016-11-21 11:30:22.426  INFO 124256 --- [http-nio-8080-exec-3] m.m.c.j.blog.controller.BlogController   : show blog list
+2016-11-21 11:32:22.728  INFO 96412 --- [restartedMain] mikaleson.mysql_connection_test.App      : Starting App on USER-20150317NC with PID 96412 (C:\Users\Administrator\git\mysql-connection-test\target\classes started by Administrator in C:\Users\Administrator\git\mysql-connection-test)
+2016-11-21 11:32:22.733 DEBUG 96412 --- [restartedMain] mikaleson.mysql_connection_test.App      : Running with Spring Boot v1.3.5.RELEASE, Spring v4.2.6.RELEASE
+2016-11-21 11:32:22.734  INFO 96412 --- [restartedMain] mikaleson.mysql_connection_test.App      : No active profile set, falling back to default profiles: default
+2016-11-21 11:32:24.117  INFO 96412 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@284a6007: startup date [Mon Nov 21 11:32:24 CST 2016]; root of context hierarchy
+2016-11-21 11:32:30.652  INFO 96412 --- [restartedMain] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from URL [file:/C:/Users/Administrator/git/mysql-connection-test/target/classes/app-context.xml]
+2016-11-21 11:32:33.614  INFO 96412 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bc4f1e9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-21 11:32:36.408  INFO 96412 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-21 11:32:36.433  INFO 96412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-21 11:32:36.435  INFO 96412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-11-21 11:32:36.684  INFO 96412 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-21 11:32:36.685  INFO 96412 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 12571 ms
+2016-11-21 11:32:37.629  INFO 96412 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-21 11:32:37.632  INFO 96412 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-21 11:32:37.635  INFO 96412 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-21 11:32:37.637  INFO 96412 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-21 11:32:37.656  INFO 96412 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-11-21 11:32:37.659  INFO 96412 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-21 11:32:38.355  INFO 96412 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-11-21 11:32:38.364  INFO 96412 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-11-21 11:32:38.365  INFO 96412 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-11-21 11:32:38.365  INFO 96412 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-11-21 11:32:38.365  INFO 96412 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-11-21 11:32:38.502  INFO 96412 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54e24138, org.springframework.security.web.context.SecurityContextPersistenceFilter@22c60920, org.springframework.security.web.header.HeaderWriterFilter@183742b6, org.springframework.security.web.authentication.logout.LogoutFilter@167e69cb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6e3c788f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1fde5523, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c6a459e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@604199b9, org.springframework.security.web.session.SessionManagementFilter@25b31646, org.springframework.security.web.access.ExceptionTranslationFilter@3a213122, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fe47038]
+2016-11-21 11:32:41.294  INFO 96412 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-11-21 11:32:41.320  INFO 96412 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-11-21 11:32:41.487  INFO 96412 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-11-21 11:32:41.491  INFO 96412 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-11-21 11:32:41.493  INFO 96412 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-11-21 11:32:41.998  INFO 96412 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-11-21 11:32:42.208  INFO 96412 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-11-21 11:32:42.288  INFO 96412 --- [restartedMain] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-11-21 11:32:44.320  INFO 96412 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@284a6007: startup date [Mon Nov 21 11:32:24 CST 2016]; root of context hierarchy
+2016-11-21 11:32:44.534  INFO 96412 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/b],methods=[GET]}" onto public java.lang.String mikaleson.mysql_connection_test.com.julie.blog.controller.BlogController.blogs(org.springframework.ui.Model)
+2016-11-21 11:32:44.535  INFO 96412 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/b],methods=[POST]}" onto private java.lang.String mikaleson.mysql_connection_test.com.julie.blog.controller.BlogController.commentBlog(mikaleson.mysql_connection_test.com.julie.blog.dto.CommentsInfo,java.lang.Long,java.lang.Long)
+2016-11-21 11:32:44.537  INFO 96412 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/u/profile/{id}]}" onto public java.lang.String mikaleson.mysql_connection_test.com.julie.user.controller.UserController.profile(java.lang.String,org.springframework.ui.Model)
+2016-11-21 11:32:44.539  INFO 96412 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.index(javax.servlet.http.HttpSession)
+2016-11-21 11:32:44.540  INFO 96412 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/send/{email}]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.email(java.lang.String)
+2016-11-21 11:32:44.540  INFO 96412 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,java.lang.String)
+2016-11-21 11:32:44.540  INFO 96412 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.login(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2016-11-21 11:32:44.541  INFO 96412 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET || POST]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.logout(javax.servlet.http.HttpSession)
+2016-11-21 11:32:44.543  INFO 96412 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-21 11:32:44.543  INFO 96412 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-21 11:32:44.625  INFO 96412 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 11:32:44.625  INFO 96412 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 11:32:44.701  INFO 96412 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 11:32:47.401  INFO 96412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2016-11-21 11:32:47.875  INFO 96412 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-21 11:32:48.264  INFO 96412 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-21 11:32:48.525  INFO 96412 --- [restartedMain] mikaleson.mysql_connection_test.App      : Started App in 26.778 seconds (JVM running for 28.868)
+2016-11-21 11:35:18.072  INFO 96412 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-21 11:35:18.073  INFO 96412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-11-21 11:35:18.154  INFO 96412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 81 ms
+2016-11-21 11:38:04.607 ERROR 96412 --- [http-nio-8080-exec-8] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-8] Exception processing template "error": Exception evaluating SpringEL expression: "T(org.springframework.http.HttpStatus).valueOf(#response.status)" (error:8)
+2016-11-21 11:38:04.701 ERROR 96412 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet dispatcherServlet threw exception
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E:(pos 39): Property or field 'status' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:220)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:46)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:374)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.MethodReference.getArguments(MethodReference.java:154)
+	at org.springframework.expression.spel.ast.MethodReference.getValueRef(MethodReference.java:71)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueRef(CompoundExpression.java:66)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:87)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:267)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:139)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariable(VariableExpression.java:154)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:59)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:103)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:133)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:120)
+	at org.thymeleaf.standard.processor.attr.AbstractStandardLocalVariableDefinitionAttrProcessor.getNewLocalVariables(AbstractStandardLocalVariableDefinitionAttrProcessor.java:89)
+	at org.thymeleaf.processor.attr.AbstractLocalVariableDefinitionAttrProcessor.processAttribute(AbstractLocalVariableDefinitionAttrProcessor.java:62)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017)
+	at org.thymeleaf.dom.Node.processNode(Node.java:972)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1246)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1029)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:720)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:468)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:391)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:445)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:304)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:181)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-21 11:38:04.711 ERROR 96412 --- [http-nio-8080-exec-8] o.a.c.c.C.[Tomcat].[localhost]           : Exception Processing ErrorPage[errorCode=0, location=/error]
+
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "T(org.springframework.http.HttpStatus).valueOf(#response.status)" (error:8)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:720)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:468)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:391)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:445)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:304)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:181)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "T(org.springframework.http.HttpStatus).valueOf(#response.status)" (error:8)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:161)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariable(VariableExpression.java:154)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:59)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:103)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:133)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:120)
+	at org.thymeleaf.standard.processor.attr.AbstractStandardLocalVariableDefinitionAttrProcessor.getNewLocalVariables(AbstractStandardLocalVariableDefinitionAttrProcessor.java:89)
+	at org.thymeleaf.processor.attr.AbstractLocalVariableDefinitionAttrProcessor.processAttribute(AbstractLocalVariableDefinitionAttrProcessor.java:62)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017)
+	at org.thymeleaf.dom.Node.processNode(Node.java:972)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1246)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1029)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	... 24 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E:(pos 39): Property or field 'status' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:220)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:46)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:374)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.MethodReference.getArguments(MethodReference.java:154)
+	at org.springframework.expression.spel.ast.MethodReference.getValueRef(MethodReference.java:71)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueRef(CompoundExpression.java:66)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:87)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:267)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:139)
+	... 52 common frames omitted
+
+2016-11-21 11:41:37.113  INFO 68084 --- [restartedMain] mikaleson.mysql_connection_test.App      : Starting App on USER-20150317NC with PID 68084 (C:\Users\Administrator\git\mysql-connection-test\target\classes started by Administrator in C:\Users\Administrator\git\mysql-connection-test)
+2016-11-21 11:41:37.123 DEBUG 68084 --- [restartedMain] mikaleson.mysql_connection_test.App      : Running with Spring Boot v1.3.5.RELEASE, Spring v4.2.6.RELEASE
+2016-11-21 11:41:37.124  INFO 68084 --- [restartedMain] mikaleson.mysql_connection_test.App      : No active profile set, falling back to default profiles: default
+2016-11-21 11:41:38.883  INFO 68084 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1147615d: startup date [Mon Nov 21 11:41:38 CST 2016]; root of context hierarchy
+2016-11-21 11:41:41.793  INFO 68084 --- [restartedMain] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from URL [file:/C:/Users/Administrator/git/mysql-connection-test/target/classes/app-context.xml]
+2016-11-21 11:41:44.533  INFO 68084 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13db42fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-21 11:41:45.711  INFO 68084 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-21 11:41:45.743  INFO 68084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-21 11:41:45.745  INFO 68084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-11-21 11:41:46.091  INFO 68084 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-21 11:41:46.092  INFO 68084 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7215 ms
+2016-11-21 11:41:46.945  INFO 68084 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-21 11:41:46.947  INFO 68084 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-21 11:41:46.949  INFO 68084 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-21 11:41:46.951  INFO 68084 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-21 11:41:46.966  INFO 68084 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-11-21 11:41:46.968  INFO 68084 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-21 11:41:47.771  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-11-21 11:41:47.783  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-11-21 11:41:47.783  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-11-21 11:41:47.784  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-11-21 11:41:47.784  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-11-21 11:41:47.944  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bfd9535, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f720fb6, org.springframework.security.web.header.HeaderWriterFilter@cf8bd82, org.springframework.security.web.authentication.logout.LogoutFilter@368d6ec2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7e5d7094, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53215c3e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c76e6fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44f1f144, org.springframework.security.web.session.SessionManagementFilter@1a67f2ed, org.springframework.security.web.access.ExceptionTranslationFilter@6fc0f20c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59880792]
+2016-11-21 11:41:51.243  INFO 68084 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-11-21 11:41:51.284  INFO 68084 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-11-21 11:41:51.539  INFO 68084 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-11-21 11:41:51.541  INFO 68084 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-11-21 11:41:51.544  INFO 68084 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-11-21 11:41:51.887  INFO 68084 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-11-21 11:41:52.018  INFO 68084 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-11-21 11:41:52.103  INFO 68084 --- [restartedMain] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-11-21 11:41:52.798  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1147615d: startup date [Mon Nov 21 11:41:38 CST 2016]; root of context hierarchy
+2016-11-21 11:41:52.945  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/b],methods=[GET]}" onto public java.lang.String mikaleson.mysql_connection_test.com.julie.blog.controller.BlogController.blogs(org.springframework.ui.Model)
+2016-11-21 11:41:52.947  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/b],methods=[POST]}" onto private java.lang.String mikaleson.mysql_connection_test.com.julie.blog.controller.BlogController.commentBlog(mikaleson.mysql_connection_test.com.julie.blog.dto.CommentsInfo,java.lang.Long,java.lang.Long)
+2016-11-21 11:41:52.949  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/u/profile/{id}]}" onto public java.lang.String mikaleson.mysql_connection_test.com.julie.user.controller.UserController.profile(java.lang.String,org.springframework.ui.Model)
+2016-11-21 11:41:52.951  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.index(javax.servlet.http.HttpSession)
+2016-11-21 11:41:52.952  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/send/{email}]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.email(java.lang.String)
+2016-11-21 11:41:52.952  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,java.lang.String)
+2016-11-21 11:41:52.953  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.login(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2016-11-21 11:41:52.953  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET || POST]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.logout(javax.servlet.http.HttpSession)
+2016-11-21 11:41:52.956  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-21 11:41:52.957  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-21 11:41:53.001  INFO 68084 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 11:41:53.001  INFO 68084 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 11:41:53.118  INFO 68084 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 11:41:58.340  INFO 68084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2016-11-21 11:41:59.254  INFO 68084 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-21 11:41:59.609  INFO 68084 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-21 11:41:59.620  INFO 68084 --- [restartedMain] mikaleson.mysql_connection_test.App      : Started App in 23.6 seconds (JVM running for 25.799)
+2016-11-21 13:19:47.185  INFO 68084 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-21 13:19:47.185  INFO 68084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-11-21 13:19:47.214  INFO 68084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2016-11-21 13:53:47.288  INFO 68084 --- [Thread-9] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1147615d: startup date [Mon Nov 21 11:41:38 CST 2016]; root of context hierarchy
+2016-11-21 13:53:47.347  INFO 68084 --- [Thread-9] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-11-21 13:53:47.351  INFO 68084 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-11-21 13:53:48.342  INFO 68084 --- [restartedMain] mikaleson.mysql_connection_test.App      : Starting App on USER-20150317NC with PID 68084 (C:\Users\Administrator\git\mysql-connection-test\target\classes started by Administrator in C:\Users\Administrator\git\mysql-connection-test)
+2016-11-21 13:53:48.343 DEBUG 68084 --- [restartedMain] mikaleson.mysql_connection_test.App      : Running with Spring Boot v1.3.5.RELEASE, Spring v4.2.6.RELEASE
+2016-11-21 13:53:48.343  INFO 68084 --- [restartedMain] mikaleson.mysql_connection_test.App      : No active profile set, falling back to default profiles: default
+2016-11-21 13:53:48.376  INFO 68084 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@436017f4: startup date [Mon Nov 21 13:53:48 CST 2016]; root of context hierarchy
+2016-11-21 13:53:51.484  INFO 68084 --- [restartedMain] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from URL [file:/C:/Users/Administrator/git/mysql-connection-test/target/classes/app-context.xml]
+2016-11-21 13:53:52.224  INFO 68084 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13db42fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-21 13:53:52.374  INFO 68084 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-21 13:53:52.375  INFO 68084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-21 13:53:52.375  INFO 68084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-11-21 13:53:53.159  INFO 68084 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-21 13:53:53.160  INFO 68084 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4785 ms
+2016-11-21 13:53:53.357  INFO 68084 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-21 13:53:53.358  INFO 68084 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-21 13:53:53.358  INFO 68084 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-21 13:53:53.358  INFO 68084 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-21 13:53:53.359  INFO 68084 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-11-21 13:53:53.365  INFO 68084 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-21 13:53:53.467  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-11-21 13:53:53.468  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-11-21 13:53:53.470  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-11-21 13:53:53.471  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-11-21 13:53:53.471  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-11-21 13:53:53.487  INFO 68084 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79574715, org.springframework.security.web.context.SecurityContextPersistenceFilter@48d778ff, org.springframework.security.web.header.HeaderWriterFilter@1dc3d5ff, org.springframework.security.web.authentication.logout.LogoutFilter@10c819ee, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@632b8b88, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2857b4d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b38f008, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39af64d3, org.springframework.security.web.session.SessionManagementFilter@b7617a6, org.springframework.security.web.access.ExceptionTranslationFilter@25c8a510, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75848cb6]
+2016-11-21 13:53:54.751  INFO 68084 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-11-21 13:53:54.751  INFO 68084 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-11-21 13:53:54.847  INFO 68084 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-11-21 13:53:54.853  INFO 68084 --- [restartedMain] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-11-21 13:53:54.970  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@436017f4: startup date [Mon Nov 21 13:53:48 CST 2016]; root of context hierarchy
+2016-11-21 13:53:54.994  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/b],methods=[GET]}" onto public java.lang.String mikaleson.mysql_connection_test.com.julie.blog.controller.BlogController.blogs(org.springframework.ui.Model)
+2016-11-21 13:53:54.997  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/b],methods=[POST]}" onto private java.lang.String mikaleson.mysql_connection_test.com.julie.blog.controller.BlogController.commentBlog(mikaleson.mysql_connection_test.com.julie.blog.dto.CommentsInfo,java.lang.Long,java.lang.Long)
+2016-11-21 13:53:54.999  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/u/profile/{id}]}" onto public java.lang.String mikaleson.mysql_connection_test.com.julie.user.controller.UserController.profile(java.lang.String,org.springframework.ui.Model)
+2016-11-21 13:53:55.002  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.index(javax.servlet.http.HttpSession)
+2016-11-21 13:53:55.003  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/send/{email}]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.email(java.lang.String)
+2016-11-21 13:53:55.003  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,java.lang.String)
+2016-11-21 13:53:55.004  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.login(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2016-11-21 13:53:55.004  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET || POST]}" onto public java.lang.String mikaleson.mysql_connection_test.Index.logout(javax.servlet.http.HttpSession)
+2016-11-21 13:53:55.007  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-21 13:53:55.008  INFO 68084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-21 13:53:55.027  INFO 68084 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 13:53:55.027  INFO 68084 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 13:53:55.050  INFO 68084 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-21 13:53:57.164  INFO 68084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2016-11-21 13:53:57.229  INFO 68084 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-21 13:53:57.283  INFO 68084 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-21 13:53:57.286  INFO 68084 --- [restartedMain] mikaleson.mysql_connection_test.App      : Started App in 9.221 seconds (JVM running for 7944.545)

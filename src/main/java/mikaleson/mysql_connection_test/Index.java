@@ -39,10 +39,7 @@ public class Index {
 		if (session.getAttribute(LOGGED_IN) == null) {
 	        return "redirect:/login";
 	    }
-		
-		
 		System.out.println("hello world");
-		
 		return "index";
 	}
 
