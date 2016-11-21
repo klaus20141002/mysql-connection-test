@@ -5,7 +5,6 @@
 	<groupId>mikaleson</groupId>
 	<artifactId>mysql-connection-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
 
 	<name>mysql-connection-test</name>
 	<url>http://maven.apache.org</url>
@@ -130,7 +129,6 @@
 			<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>2.4</version>
                 <executions>
                     <execution>
                         <id>copy-dependencies</id>
@@ -139,8 +137,6 @@
                     </execution>
                 </executions>
             </plugin>
-			
-
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
