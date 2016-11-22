@@ -33,7 +33,9 @@ public class Index {
 
 	@Autowired
 	JavaMailSender sender;
-	@RequestMapping({ "/"})
+	
+	
+	@RequestMapping({ "/","/index"})
 	public String index(HttpSession session) {
 		System.out.println(session.getAttribute(LOGGED_IN));
 		if (session.getAttribute(LOGGED_IN) == null) {
@@ -42,6 +44,14 @@ public class Index {
 		System.out.println("hello world");
 		return "index";
 	}
+	
+	
+	@RequestMapping({ "/julie"})
+	public String julie(HttpSession session) {
+		System.out.println("hello julie, i love you");
+		return "julie";
+	}
+
 
 
 	@RequestMapping("/send/{email}")

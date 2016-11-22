@@ -5,6 +5,8 @@
  */
 package mikaleson.mysql_connection_test.com.julie.user.controller;
 
+import mikaleson.mysql_connection_test.com.julie.user.dto.UserInfoDto;
+
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -28,17 +30,12 @@ public class UserController {
 	public String profile(@PathVariable(value="id") String id, Model model) {
 		log.info("query user info , id is : "+id);
 		
-		
-		
-		
-		
-		model.addAttribute("userInfo", "userinfo") ;
-		
-		
-		
-		
-		
-		
+		UserInfoDto userinfo = new UserInfoDto();
+		userinfo.setNickname("niklaus mikaelson");
+		userinfo.setUserId(1L);
+		userinfo.setCoverPicture(1L);
+		userinfo.setToken("niklaus-mikaelson-49380583409523-cfdf-31282374982739842");
+		model.addAttribute("userInfo", userinfo) ;
 		
 		return "user/profile";
 	}

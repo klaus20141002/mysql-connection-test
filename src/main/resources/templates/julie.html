@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Julie's Home</title>
+<meta charset="utf-8" />
+<!-- 	<link rel="stylesheet" href="css/julie.css" th:href="@{/css/julie.css}" /> -->
+<link rel="stylesheet"
+	href="../webjars/bootstrap/3.2.0/css/bootstrap.min.css"
+	th:href="@{../webjars/bootstrap/3.2.0/css/bootstrap.min.css}" />
+
+
+
+
+</head>
+<body>
+
+	<div id="navigator">
+
+
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed"
+						data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span> <span
+							class="icon-bar"></span> <span class="icon-bar"></span> <span
+							class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/index">Home</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse"
+					id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="/index">Blog</a></li>
+						<li><a href="#">Zero</a></li>
+
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search" />
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Link</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+							</ul></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+
+	</div>
+	<!-- start site's main content area -->
+	<section class="content-wrap">
+		<div class="container">
+			<div class="row">
+				<main class="col-md-8 col-md-offset-2 main-content">
+					<article id="2" class="post tag-https">
+	
+						<div class="post-head">
+							<h1 class="post-title">
+								<a href="/bootcdn-support-https/">BootCDN 已经支持 HTTPS 协议啦！</a>
+							</h1>
+							<div class="post-meta">
+								<span class="author">作者：<a href="/author/wangsai/">王赛</a></span>
+								&bull;
+								<time class="post-date" datetime="2015年8月24日星期一凌晨2点54分"
+									title="2015年8月24日星期一凌晨2点54分">2015年8月24日</time>
+							</div>
+						</div>
+						<div class="post-content">
+							<p>从今年 6 月下旬开始，BootCDN 就开始正式支持 https
+								协议了！首先，在此感谢又拍云给予的大力支持！还有众多热心的同学给我们提的建议，让 BootCDN 越来越完善！
+								http？https？相对协议？ 从目前的使用量上来说，http 协议仍然是主流，但是越来越多的站长</p>
+						</div>
+						<div class="post-permalink">
+							<a href="/bootcdn-support-https/" class="btn btn-default">阅读全文</a>
+						</div>
+	
+						<footer class="post-footer clearfix">
+							<div class="pull-left tag-list">
+								<i class="fa fa-folder-open-o"></i> <a href="/tag/https/">https</a>
+							</div>
+							<div class="pull-right share"></div>
+						</footer>
+					</article>
+					<nav class="pagination" role="navigation">
+						<span class="page-number">第 1 页 &frasl; 共 1 页</span>
+					</nav>
+				</main>
+			</div>
+		</div>
+	</section>
+
+
+
+	<script type="text/javascript"
+		src="../webjars/jquery/2.1.1/jquery.min.js"
+		th:href="@{../webjars/jquery/2.1.1/jquery.min.js}"></script>
+	<script type="text/javascript"
+		src="../webjars/bootstrap/3.2.0/js/bootstrap.min.js"
+		th:href="@{../webjars/bootstrap/3.2.0/js/bootstrap.min.js}"></script>
+</body>
+</html>
