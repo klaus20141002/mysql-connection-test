@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Titmice - A Personal Finance Application That Prevents
+	You From Overspending</title>
+
+<!-- Viewport mobile tag for sensible mobile support -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
+<meta name="description" content="A personal finance app that prevents you from overspending"></meta>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet"></link>
+
+<!--
+        Stylesheets and Preprocessors
+        ==============================
+
+        You can always bring in CSS files manually with `<link>` tags, or asynchronously
+        using a solution like AMD (RequireJS).  Or, if you like, you can take advantage
+        of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+        By default, stylesheets from your `assets/styles` folder are included
+        here automatically (between STYLES and STYLES END). Both CSS (.css) and LESS (.less)
+        are supported. In production, your styles will be minified and concatenated into
+        a single file.
+
+        To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+        For example, here are a few things you could do:
+
+            + Change the order of your CSS files
+            + Import stylesheets from other directories
+            + Use a different or additional preprocessor, like SASS, SCSS or Stylus
+    -->
+<link rel="icon" type="image/x-icon" sizes="16x16" href="/favicon.ico?123"></link>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
+<!--STYLES-->
+<link rel="stylesheet" href="../css/production.css"></link>
+<!--STYLES END-->
+</head>
+
+
+<body>
+	<!--
+        Client-side Templates
+        ========================
+
+        HTML templates are important prerequisites of modern, rich client applications.
+        To work their magic, frameworks like Backbone, Angular, Ember, and Knockout require
+        that you load these templates client-side.
+
+        By default, your Gruntfile is configured to automatically load and precompile
+        client-side JST templates in your `assets/templates` folder, then
+        include them here automatically (between TEMPLATES and TEMPLATES END).
+
+        To customize this behavior to fit your needs, just edit `tasks/pipeline.js`.
+        For example, here are a few things you could do:
+
+            + Import templates from other directories
+            + Use a different template engine (handlebars, jade, dust, etc.)
+            + Internationalize your client-side templates using a server-side
+              stringfile before they're served.
+    -->
+
+	<!--TEMPLATES-->
+
+	<!--TEMPLATES END-->
+
+
+	<!--
+
+      Client-side Javascript
+      ========================
+
+      You can always bring in JS files manually with `script` tags, or asynchronously
+      on the client using a solution like AMD (RequireJS).  Or, if you like, you can
+      take advantage of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+      By default, files in your `assets/js` folder are included here
+      automatically (between SCRIPTS and SCRIPTS END).  Both JavaScript (.js) and
+      CoffeeScript (.coffee) are supported. In production, your scripts will be minified
+      and concatenated into a single file.
+
+      To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+      For example, here are a few things you could do:
+
+          + Change the order of your scripts
+          + Import scripts from other directories
+          + Use a different preprocessor, like TypeScript
+
+    -->
+
+	<!--SCRIPTS-->
+	<script src="/js/production.min.js"></script>
+	<!--SCRIPTS END-->
+	<div class="container-fluid home">
+
+		<nav class="row hero-cover">
+			<div class="col-md-8 col-md-offset-2">
+				<div style="overflow: hidden;">
+					<div class="nav-link">
+						<div class="logo"></div>
+					</div>
+					<div class=" nav-link active">
+						<span class="underline">Titmice</span>
+					</div>
+					<div class=" nav-link">
+						<a href="#features">Features</a>
+					</div>
+					<div class=" nav-link">
+						<a href="https://goo.gl/forms/vPGfLaL2RORAa20b2">Get Access</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="row hero-cover hero-top">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-lg-7">
+						<div id="hero">
+							<h1 class="title">Take charge of your expenses. Stop
+								overspending.</h1>
+							<h2 class="description light-gray-font">A personal finance
+								app that encourages good budgeting habits and prevents you from
+								overspending</h2>
+						</div>
+						<div class="row">
+							<div
+								class="col-lg-6 col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+								<a href="https://goo.gl/forms/vPGfLaL2RORAa20b2">
+									<div class="access">
+										<img src="images/button.png"></img>GET BETA ACCESS
+									</div> <!-- <div class="image no-smoke"><img src="images/download.png"></div> -->
+								</a>
+							</div>
+						</div>
+						<!-- <div class="subscribe form-group row">
+                        <div class="col-sm-8">
+                            <input type="email" class="form-control" placeholder="Your email address....">
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="button" class="btn btn-block" value="SUBSCRIBE">
+                        </div>
+                    </div> -->
+					</div>
+
+					<div class="col-lg-4 col-lg-offset-1 big-hp">
+						<div class="image no-smoke">
+							<img src="images/cover.png"></img>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="story section white-section row">
+			<div class="col-md-8 col-md-offset-2 inner-story">
+				<blockquote>Why do people overspend?</blockquote>
+				<div>
+					<p>There are plenty of reasons why people seemingly throw their
+						money away, but most commonly:
+					</p>
+					<ul>
+						<li>They have no clue where they are spending excessively</li>
+						<li>And how much more they can actually spend.</li>
+					</ul>
+					
+					<p>People spend instinctively and, as humans, are susceptible
+						to Optimism Bias. Thus, we tend to overestimate our quota.</p>
+					<p>With Titmice, you can learn to take charge of your bad
+						spending habits just through simple expense tracking.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="section row" id="features">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-sm-5">
+						<h3>Easy Budgeting</h3>
+						<div class="image">
+							<img src="images/budget.png"></img>
+						</div>
+						<p>
+							Set your budget's amount and duration. Titmice will <span
+								class="name">advise you on how much to spend daily</span>.
+						</p>
+					</div>
+					<div class="col-sm-5 col-sm-offset-2">
+						<h3>Smart Expense Input</h3>
+						<div class="image">
+							<img src="images/smart_expenses.png"></img>
+						</div>
+						<p>
+							With machine learning techniques, Titmice can teach itself, based
+							on your previous expenses, to make <span class="name">smart
+								suggestions</span>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section white-section row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-sm-5">
+						<h3>Rollover Concept - Chest</h3>
+						<p>
+							Using a rollover concept, Titmice will <span class="name">track
+								your daily leftover budget and add them to your chest</span>.
+						</p>
+						<p>The chest gives you a indicator on how much you can exceed
+							your daily budget. The larger your chest amount, the more buffer
+							you have.</p>
+					</div>
+					<div class="col-sm-6 col-sm-offset-1">
+						<div class="image" style="margin-top: 20px">
+							<img src="images/chest.png"></img>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section row l-text-center">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-xs-12">
+						<h3>Budget Insights</h3>
+						<p>
+							Titmice gives you a insight to your expenses that you would have
+							missed out easily like <span class="name">identifying
+								out-of-the-ordinary expenses</span> and budget breakdown.
+						</p>
+					</div>
+					<div class="col-sm-4 col-sm-offset-4">
+						<div class="image" style="margin-top: 20px">
+							<img src="images/insights.png"></img>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="white-section section row l-text-center">
+		<div class="col-md-8 col-md-offset-2">
+<!-- 			<p>Get your beta access here:</p> -->
+			<div class="col-sm-4 col-sm-offset-4">
+				<a href="https://goo.gl/forms/vPGfLaL2RORAa20b2">
+					<div class="access">
+						<img src="images/button.png"></img>GET BETA ACCESS
+					</div>
+					<!-- 					<div class="image no-smoke"><img src="images/download.png"></div> -->
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="footer row l-text-center">
+		Product of <a href="https://twitter.com/p0larBoy">p0larboy</a> © 2016
+		Titmice
+	</div>
+
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-35589544-12', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>

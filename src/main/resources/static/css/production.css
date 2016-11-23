@@ -1,0 +1,318 @@
+@CHARSET "UTF-8";
+
+body, html {
+	line-height: 1.4;
+	font-size: 16px;
+	font-family: Lato, sans-serif;
+	letter-spacing: .5px
+}
+
+body {
+	background: #f6f9fc;
+	color: #474f56
+}
+
+h1, h2 {
+	font-weight: 300;
+	line-height: 1.4
+}
+
+h3, h4 {
+	font-weight: 700;
+	margin-bottom: 1.5rem
+}
+
+.light-grey-font {
+	color: #97a2ab
+}
+
+.blue-font {
+	color: #007ee6
+}
+
+.bold {
+	font-weight: 700
+}
+
+.montserrat {
+	font-family: 'Open Sans', sans-serif
+}
+
+.name {
+	color: #007ee6;
+	font-weight: 700
+}
+
+.opensans {
+	font-family: 'Open Sans', sans-serif
+}
+
+.panel-heading {
+	background: #fff !important;
+	font-weight: 700;
+	color: #007ee6 !important;
+	border-bottom: 1px solid rgba(0, 0, 0, .4) !important
+}
+
+.l-text-center {
+	text-align: center
+}
+
+.l-text-right {
+	text-align: right
+}
+
+.list {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+.list li {
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	padding: 10px 15px;
+	position: relative;
+	overflow: hidden
+}
+
+.list li.large {
+	padding: 15px;
+	line-height: 21px
+}
+
+.list li.large button {
+	margin-top: -4px;
+	margin-left: -9px
+}
+
+.list li:last-child {
+	border: none
+}
+
+.btn-blue {
+	border-color: #007ee6;
+	color: #007ee6
+}
+
+.modalOpen {
+	display: block
+}
+
+.home .hero {
+	margin: 30px 0
+}
+
+.home blockquote {
+	margin: 30px 0;
+	font-size: 2rem;
+	font-weight: 300;
+	border-left: 5px solid #007ee6
+}
+
+.expense-category-icon {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background-size: 100%;
+	position: relative;
+	top: 2px
+}
+
+.grouped-expenses {
+	padding: 10px 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, .4);
+	overflow: hidden;
+	margin: 0;
+	background: #f6f9fc
+}
+
+.grouped-expenses li {
+	margin-bottom: 5px
+}
+
+.grouped-expenses.white {
+	background: #fff
+}
+
+.text-success {
+	color: #369e65
+}
+
+.text-danger {
+	color: #b54d62
+}
+
+p {
+	margin-bottom: 2rem
+}
+
+.title {
+	font-size: 2.4rem;
+	line-height: 1.4
+}
+
+.description {
+	font-size: 1.25rem;
+	line-height: 1.4
+}
+
+.hero-cover {
+	background-image: url(../images/seigaiha.png);
+	background-repeat: repeat
+}
+
+.section {
+	padding: 4rem 0;
+	border-bottom: 1px solid #DFE8F0;
+	font-size: 1.1125rem
+}
+
+.white-section {
+	background: #fff
+}
+
+.light-gray-font {
+	color: #807E7E
+}
+
+.story {
+	border-top: 1px solid #DFE8F0
+}
+
+nav {
+	padding: 20px 0
+}
+
+nav .nav-link {
+	text-transform: uppercase;
+	line-height: 50px;
+	float: left;
+	margin-right: 20px
+}
+
+nav .nav-link a {
+	color: #807E7E
+}
+
+nav .nav-link.active {
+	color: #000
+}
+
+nav .nav-link .underline {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #007ee6
+}
+
+.logo {
+	background: url(/images/logo.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	background-size: 100%
+}
+
+.image {
+	padding: 10px 0 25px
+}
+
+.image img {
+	display: block;
+	width: 100%;
+	border: 1px solid #DFE8F0;
+	border-radius: 5px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1)
+}
+
+.image.no-smoke img {
+	border-width: 0;
+	border-radius: 0;
+	box-shadow: none
+}
+
+#hero {
+	margin-bottom: 65px
+}
+
+.footer {
+	padding: 25px
+}
+
+.subscribe {
+	margin-top: .5rem
+}
+
+.subscribe input[type=email] {
+	height: 50px;
+	border-radius: 0;
+	border-left: 4px solid #007ee6
+}
+
+.subscribe input[type=button] {
+	height: 50px;
+	border-radius: 0;
+	background: #007ee6;
+	color: #fff
+}
+
+.access {
+	background: #007ee6;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	padding: 25px 0
+}
+
+.access img {
+	width: 35px;
+	margin-right: 10px
+}
+
+@media screen and (max-width:480px) {
+	body, html {
+		font-size: 14px
+	}
+	.title {
+		font-size: 2.5rem;
+		line-height: 1.4
+	}
+	.container-fluid {
+		padding-left: 8px;
+		padding-right: 8px
+	}
+	.small-padding {
+		padding: 5px
+	}
+}
+
+@media screen and (max-width:767px) {
+	.big-hp {
+		display: none
+	}
+	.subscribe input[type=email] {
+		margin-bottom: 8px
+	}
+	#hero {
+		margin-bottom: 0
+	}
+	.section {
+		padding: 2rem 0
+	}
+	.image img {
+		width: 80%
+	}
+}
+
+@media screen and (max-width:1199px) {
+	.big-hp {
+		display: none
+	}
+}
+
+@media screen and (min-width:1300px) {
+	.hero-top {
+		margin-bottom: -4.5rem
+	}
+	.inner-story {
+		margin-top: -4.5rem
+	}
+}

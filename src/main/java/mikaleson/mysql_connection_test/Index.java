@@ -52,6 +52,16 @@ public class Index {
 		return "julie";
 	}
 
+	
+	@RequestMapping({ "/titmice"})
+	public String titmice(HttpSession session) {
+		System.out.println("hello titmice ");
+		
+		
+		
+		return "titmice";
+	}
+
 
 
 	@RequestMapping("/send/{email}")
