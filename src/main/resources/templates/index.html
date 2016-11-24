@@ -1,26 +1,574 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-    <head>
-        <title>Julie's Home</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="css/style.css" th:href="@{/css/style.css}" />
-    </head>
-    <body>
-    <div class = "container">
-     	
-     	<div class ="header"> 
-     		<span>Julie</span>
-     		<span>logout</span>
-     		<span>sign up</span>
-     	</div>
-     	
-     	
-     	<div class ="attractive">
-     	
-			<h1>today is darkness , tomorrow will be better, the day after , better still.</h1>
-     	
-     	</div>
-</div>
+<head>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon"
+	href="http://www.travelegendary.com/sites/default/files/favicon.ico"
+	type="image/vnd.microsoft.icon" />
+<meta name="google-site-verification"
+	content="QxACvihuA3EPQuGs_2R3w3lSIEglIhzr3ISjhrJJAlM" />
+<link rel="canonical" href="http://www.travelegendary.com/" />
+<link rel="shortlink" href="http://www.travelegendary.com/" />
+<meta property="og:site_name" content="Travel Legendary" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.travelegendary.com/" />
+<meta property="og:title" content="Travel Legendary" />
+<title>Travel Legendary |</title>
+<link type="text/css" rel="stylesheet"
+	href="http://www.travelegendary.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css"
+	media="all" />
+<link type="text/css" rel="stylesheet"
+	href="http://www.travelegendary.com/sites/default/files/css/css_UZ65h848a8E2HYNdjv61G9Rbt-qWK-KwNB09phU7z7s.css"
+	media="all" />
+<link type="text/css" rel="stylesheet"
+	href="http://www.travelegendary.com/sites/default/files/css/css_ypykIY5SR-uGFJG0iJIW9_mewF4Ks7Zs4a7s0WXtTIc.css"
+	media="all" />
+<style type="text/css" media="all">
+<!-- /*--><![CDATA[/*><!--*/
+.md-layer-3-0-0 {
+	z-index: 997 !important;
+	color: #000000 !important;
+	text-align: left;
+	font-size: 5em;
+	font-weight: 400;
+	font-family: "Roboto";
+}
 
-    </body>
+.md-layer-3-0-1 {
+	z-index: 998 !important;
+	color: #000000 !important;
+	font-size: 5em;
+	font-weight: 700;
+	font-family: "Roboto";
+}
+
+.md-layer-3-0-2 a {
+	background: #5087f8;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	color: #ffffff !important;
+	text-align: center;
+	font-size: 1.6666666666667em;
+	font-weight: 700;
+	font-family: "Roboto";
+	text-transform: uppercase;
+}
+
+.md-layer-3-0-2 {
+	z-index: 999 !important;
+}
+
+.md-layer-3-0-3 a {
+	background: #5087f8;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	color: #ffffff !important;
+	text-align: center;
+	font-size: 1.6666666666667em;
+	font-weight: 700;
+	font-family: "Roboto";
+}
+
+.md-layer-3-0-3 {
+	z-index: 996 !important;
+}
+
+/*]]>*/
+-->
+</style>
+<link type="text/css" rel="stylesheet"
+	href="http://www.travelegendary.com/sites/default/files/css/css_Mhouu3ty1eUrevIvaPfLAZ4Je-bTCnSPqdd76CI4vH4.css"
+	media="all" />
+<style type="text/css" media="all">
+<!-- /*--><![CDATA[/*><!--*/
+@media ( max-width :460px) {
+	.hideonmobile {
+		display: none !important;
+	}
+}
+
+/*]]>*/
+-->
+</style>
+<link type="text/css" rel="stylesheet"
+	href="http://www.travelegendary.com/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css"
+	media="screen and (min-width: 992px)" />
+<link type="text/css" rel="stylesheet"
+	href="http://www.travelegendary.com/sites/default/files/css/css_4BBwRTjUzEAy4fpqbbheWfB-gci4_VOD8CGJBcHLwqQ.css"
+	media="screen and (max-width: 991px)" />
+<link type="text/css" rel="stylesheet"
+	href="http://www.travelegendary.com/sites/default/files/css/css_U1iO4ZL9-_QAZu4UroWaIJGGKfvKCDDAMV307qONVxw.css"
+	media="all" />
+<script type="text/javascript"
+	src="http://www.travelegendary.com/sites/default/files/js/js_seGfplOEmoqT0scKieAF4Tg5m-aZYFbmYFRZ5FHSP6g.js"></script>
+<script type="text/javascript"
+	src="http://www.travelegendary.com/sites/default/files/js/js_8STzBXFm4WznUF432iM3mAouPU2Hhs_qHLSYtLzrScs.js"></script>
+<script type="text/javascript"
+	src="http://www.travelegendary.com/sites/default/files/js/js_4baF1JxYZlP3X8kt4-tIMBfhHeww76-WTJMjFxCOrmI.js"></script>
+<script type="text/javascript"
+	src="http://www.travelegendary.com/sites/default/files/js/js_8QmrplhpAibOYgGZQWgdTMJVQqLSgsY6zl9hMHiAINk.js"></script>
+<script type="text/javascript"
+	src="http://www.travelegendary.com/sites/all/modules/lightbox2/js/lightbox.js?1479961504"></script>
+<script type="text/javascript"
+	src="http://www.travelegendary.com/sites/default/files/js/js_s6x40f73jdstION2YSCv2-8YNOO7vHZ1S0jRa4x3EuQ.js"></script>
+<script type="text/javascript"
+	src="http://www.travelegendary.com/sites/default/files/js/js_xK-WIKME_dnkz_L9WZu91qRSFNC79hLUGBHYXJy7CZc.js"></script>
+<script type="text/javascript"
+	src="http://www.travelegendary.com/sites/default/files/js/js_RBre59epjE5tJaCI9ZZvU_8UhsnMOcfUQlcvSgK4voU.js"></script>
+<script type="text/javascript"
+	src="http://www.travelegendary.com/sites/default/files/js/js_47gsHHKUOoENkSAgKv5bCHHLcAt0pE_LH_EDyhEdIhs.js"></script>
+
+</head>
+
+<body
+	class="html front not-logged-in no-sidebars page-node ltr wide  preset-white-blue">
+	<div id="skip-link">
+		<a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+	</div>
+	<div class="dexp-body-inner default">
+		<section class="dexp-section" id="section-top">
+			<div class="container">
+				<div class="row">
+					<!-- .region-social-top-->
+					<div
+						class="region region-social-top col-xs-12 col-sm-12 col-md-7 col-lg-7">
+
+						<div id="block-block-46"
+							class="block block-block hidden-xs hidden-sm">
+							<div class="inner"></div>
+
+							<div class="content">
+								<div class="social clearfix">
+									<ul>
+										<li><a target="_blank" data-placement="auto"
+											data-toggle="tooltip" title="Facebook"
+											href="https://www.facebook.com/travelegendary/"
+											class="dtooltip social-icon "><span><i
+													class="fa fa-facebook"></i></span> </a></li>
+										<li><a target="_blank" data-placement="auto"
+											data-toggle="tooltip" title="Twitter"
+											href="https://twitter.com/travelegendary"
+											class="dtooltip social-icon "><span><i
+													class="fa fa-twitter"></i></span> </a></li>
+										<li><a target="_blank" data-placement="auto"
+											data-toggle="tooltip" title="Instagram"
+											href="https://www.instagram.com/travelegendary/"
+											class="dtooltip social-icon "><span><i
+													class="fa fa-instagram"></i></span> </a></li>
+										<li><a target="_blank" data-placement="auto"
+											data-toggle="tooltip" title="Vimeo"
+											href="https://vimeo.com/travelegendary"
+											class="dtooltip social-icon "><span><i
+													class="fa fa-youtube"></i></span> </a></li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+					<!-- END .region-social-top-->
+					<!-- .region-contact-info-->
+					<div
+						class="region region-contact-info col-xs-12 col-sm-8 col-md-5 col-lg-5">
+
+						<div id="block-tl-general-user-links-tl-general"
+							class="block block-tl-general">
+							<div class="inner"></div>
+
+							<div class="content">
+								<a href="/sign-in">Login</a>&nbsp;&nbsp; &nbsp; &nbsp; <a
+									href="/sign-in">Register</a>
+							</div>
+						</div>
+
+					</div>
+					<!-- END .region-contact-info-->
+				</div>
+			</div>
+		</section>
+		<section class="dexp-section dexp-sticky" id="section-header">
+			<div class="container">
+				<div class="row">
+					<!-- .region-logo-->
+					<div class="col-xs-8 col-sm-10 col-md-2 col-lg-2">
+						<a href="/" class="site-logo active"><img
+							src="http://www.travelegendary.com/sites/all/themes/travellegendary/logo.png"
+							alt="" /></a>
+					</div>
+					<!-- END .region-logo-->
+					<!-- .region-navigation-->
+					<div
+						class="region region-navigation col-xs-2 col-sm-1 col-md-10 col-lg-10">
+
+						<div id="block-dexp-menu-dexp-menu-block-1"
+							class="block block-dexp-menu">
+							<div class="inner"></div>
+
+							<div class="content">
+								<a data-target="#dexp-dropdown" href="#"
+									class="hidden-lg hidden-md btn btn-inverse dexp-menu-toggler">
+									<i class="fa fa-bars"></i>
+								</a>
+								<div id="dexp-dropdown" class="dexp-menu dexp-dropdown">
+									<ul class="menu">
+										<li class="first leaf"><a href="/blogs">Blog Library</a></li>
+										<li class="leaf"><a href="/users">Users</a></li>
+										<li class="last leaf"><a href="/story-behind">ABOUT
+												US</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- END .region-navigation-->
+				</div>
+			</div>
+		</section>
+		<section class="dexp-section" id="section-slider">
+			<div class="dexp-container">
+				<div class="row">
+					<!-- .region-slider-->
+					<div
+						class="region region-slider col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+						<div id="block-md-slider-md-slider-56d0cf8bd00ae"
+							class="block block-md-slider">
+							<div class="inner"></div>
+
+							<div class="content">
+								<div id="md-slider-3-block" class="md-slide-items"
+									data-thumb-width='100' data-thumb-height='75'>
+
+									<div class="md-slide-item slide-1" data-timeout='8000'
+										data-transition="slide-in-down" data-thumb-type='image'
+										data-thumb-alt='Travel legendary front page image'
+										data-thumb='http://www.travelegendary.com/sites/default/files/styles/md_slider_3_thumb/public/naslovna_slika_1.jpg?itok=yFpKPztV'>
+										<div class="md-mainimg" style="">
+											<img
+												src="http://www.travelegendary.com/sites/default/files/naslovna_slika_1.jpg"
+												alt="Travel legendary front page image" />
+										</div>
+										<div class="md-objects">
+											<div class="md-object md-layer-3-0-0" data-x='558'
+												data-y='198' data-width='384' data-height='66'
+												data-start='1000' data-stop='8000'
+												data-easein='fadeInLeftBig' data-easeout='keep'>SHARE
+												YOUR</div>
+											<div class="md-object md-layer-3-0-1 fdsfds" data-x='561'
+												data-y='253' data-width='399' data-height='128'
+												data-start='971' data-stop='7957'
+												data-easein='fadeInLeftBig' data-easeout='keep'>
+												LEGENDARY MOMENTS</div>
+											<div class="md-object md-layer-3-0-2 fdsfds" data-x='525'
+												data-y='389' data-width='201' data-height='19'
+												data-start='3500' data-stop='8000' data-easein='fadeInUpBig'
+												data-easeout='keep' data-paddingtop='40'
+												data-paddingright='40' data-paddingbottom='40'
+												data-paddingleft='40'>
+												<a href="http://www.travelegendary.com/blogs">go to blog
+													library</a>
+											</div>
+											<div class="md-object md-layer-3-0-3 fdsfds" data-x='143'
+												data-y='389' data-width='201' data-height='19'
+												data-start='2600' data-stop='8000' data-easein='fadeInUpBig'
+												data-easeout='keep' data-paddingtop='40'
+												data-paddingright='40' data-paddingbottom='40'
+												data-paddingleft='40'>
+												<a href="http://www.travelegendary.com/sign-in">JOIN NOW
+													FOR FREE</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+					<!-- END .region-slider-->
+				</div>
+			</div>
+		</section>
+		<section class="dexp-section" id="section-main-content">
+			<div class="container">
+				<div class="row">
+					<!-- .region-content-->
+					<div
+						class="region region-content col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="tabs"></div>
+						<div id="block-views-random-blog-post-block"
+							class="block block-views">
+							<div class="inner"></div>
+							<h2 class="block-title  no-subtitle">Random blog post</h2>
+
+							<div class="content">
+								<div
+									class="view view-random-blog-post view-id-random_blog_post view-display-id-block view-dom-id-1ceafb0450c2dc5748e623446fa7c06d">
+
+
+
+									<div class="view-content">
+										<div
+											class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+
+											<div class="views-field views-field-field-picture">
+												<div class="field-content">
+													<a href="/blogs/island-vis"><img typeof="foaf:Image"
+														src="http://www.travelegendary.com/sites/default/files/blog/jajo3_1.jpg"
+														alt="" /></a>
+												</div>
+											</div>
+											<div class="views-field views-field-ops">
+												<span class="field-content"></span>
+											</div>
+											<div class="views-field views-field-created">
+												<span class="field-content">April, 24th</span>
+											</div>
+											<div class="views-field views-field-title">
+												<h2 class="field-content">
+													<a href="/blogs/island-vis">Island of Vis</a>
+												</h2>
+											</div>
+											<div class="views-field views-field-name">
+												<span class="views-label views-label-name">Posted by</span>
+												<span class="field-content"><a
+													href="/users/223/cherie" title="View user profile."
+													class="username" xml:lang="" about="/users/223/cherie"
+													typeof="sioc:UserAccount" property="foaf:name" datatype="">Cherie</a></span>
+											</div>
+											<div class="views-field views-field-ops-1">
+												<span class="field-content"><span
+													class="flag-wrapper flag-blog-flag-c flag-blog-flag-c-190">
+														<span class="flag flag-action flag-link-toggle"><a
+															href="/sign-in">F</a></span>
+												</span> </span>
+											</div>
+											<div class="views-field views-field-count">
+												<span class="field-content">5</span>
+											</div>
+											<div class="views-field views-field-comment-count">
+												<span class="field-content">0</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div id="block-views-random-images-first-page-block"
+							class="block block-views">
+							<div class="inner"></div>
+							<h2 class="block-title  no-subtitle">Choose your options</h2>
+
+							<div class="content">
+								<div
+									class="view view-random-images-first-page view-id-random_images_first_page view-display-id-block view-dom-id-c45318914f7dde605129d98a9f0ba0d0">
+
+
+
+									<div class="view-content">
+										<div
+											class="views-row views-row-1 views-row-odd views-row-first">
+
+											<div class="views-field views-field-field-picture">
+												<div class="field-content with-rgb-background">
+													<img typeof="foaf:Image"
+														src="http://www.travelegendary.com/sites/default/files/styles/choose_your_option/public/blog/1.jpg?itok=dy7egNyP"
+														alt="" />
+												</div>
+											</div>
+											<div class="views-field views-field-nothing">
+												<span class="field-content"><a
+													class="first_blogs choose_link" href="/blogs">BLOG
+														LIBRARY </a> <a class="first_userfeeds choose_link"
+													href="/user-feed">USER FEED</a> <a
+													class="first_bucket choose_link" href="/bucket-list">BUCKET
+														LIST</a> <a class="first_destinations choose_link"
+													href="/node/add/blog">CREATE YOUR TRAVEL BLOG NOW</a></span>
+											</div>
+											<div class="views-field views-field-nothing-1">
+												<span class="field-content"><div class="blur"></div></span>
+											</div>
+										</div>
+										<div class="views-row views-row-2 views-row-even">
+
+											<div class="views-field views-field-field-picture">
+												<div class="field-content with-rgb-background">
+													<img typeof="foaf:Image"
+														src="http://www.travelegendary.com/sites/default/files/styles/choose_your_option/public/blog/2.jpg?itok=Y8YyEuvs"
+														alt="" />
+												</div>
+											</div>
+											<div class="views-field views-field-nothing">
+												<span class="field-content"><a
+													class="first_blogs choose_link" href="/blogs">BLOG
+														LIBRARY </a> <a class="first_userfeeds choose_link"
+													href="/user-feed">USER FEED</a> <a
+													class="first_bucket choose_link" href="/bucket-list">BUCKET
+														LIST</a> <a class="first_destinations choose_link"
+													href="/node/add/blog">CREATE YOUR TRAVEL BLOG NOW</a></span>
+											</div>
+											<div class="views-field views-field-nothing-1">
+												<span class="field-content"><div class="blur"></div></span>
+											</div>
+										</div>
+										<div class="views-row views-row-3 views-row-odd">
+
+											<div class="views-field views-field-field-picture">
+												<div class="field-content with-rgb-background">
+													<img typeof="foaf:Image"
+														src="http://www.travelegendary.com/sites/default/files/styles/choose_your_option/public/blog/3.jpg?itok=3WTImeIH"
+														alt="" />
+												</div>
+											</div>
+											<div class="views-field views-field-nothing">
+												<span class="field-content"><a
+													class="first_blogs choose_link" href="/blogs">BLOG
+														LIBRARY </a> <a class="first_userfeeds choose_link"
+													href="/user-feed">USER FEED</a> <a
+													class="first_bucket choose_link" href="/bucket-list">BUCKET
+														LIST</a> <a class="first_destinations choose_link"
+													href="/node/add/blog">CREATE YOUR TRAVEL BLOG NOW</a></span>
+											</div>
+											<div class="views-field views-field-nothing-1">
+												<span class="field-content"><div class="blur"></div></span>
+											</div>
+										</div>
+										<div
+											class="views-row views-row-4 views-row-even views-row-last">
+
+											<div class="views-field views-field-field-picture">
+												<div class="field-content with-rgb-background">
+													<img typeof="foaf:Image"
+														src="http://www.travelegendary.com/sites/default/files/styles/choose_your_option/public/blog/4.jpg?itok=zNSEOQN6"
+														alt="" />
+												</div>
+											</div>
+											<div class="views-field views-field-nothing">
+												<span class="field-content"><a
+													class="first_blogs choose_link" href="/blogs">BLOG
+														LIBRARY </a> <a class="first_userfeeds choose_link"
+													href="/user-feed">USER FEED</a> <a
+													class="first_bucket choose_link" href="/bucket-list">BUCKET
+														LIST</a> <a class="first_destinations choose_link"
+													href="/node/add/blog">CREATE YOUR TRAVEL BLOG NOW</a></span>
+											</div>
+											<div class="views-field views-field-nothing-1">
+												<span class="field-content"><div class="blur"></div></span>
+											</div>
+										</div>
+									</div>
+
+
+
+
+
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- END .region-content-->
+				</div>
+			</div>
+		</section>
+		<section class="dexp-section footer1 jt-shadow" id="section-footer"
+			style="background-color: #272727">
+			<div class="container">
+				<div class="row">
+					<!-- .region-footer-first-->
+					<div
+						class="region region-footer-first col-xs-12 col-sm-6 col-md-3 col-lg-3">
+
+						<div id="block-block-72" class="block block-block">
+							<div class="inner"></div>
+
+							<div class="content">
+								<ul>
+									<li><a href="/blogs">Blog Library</a></li>
+									<li><a href="/user-feed">User Feed</a></li>
+									<li><a href="/bucket-list">Bucket List</a></li>
+									<li><a href="/users">Users</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<!-- END .region-footer-first-->
+					<!-- .region-footer-second-->
+					<div
+						class="region region-footer-second col-xs-12 col-sm-6 col-md-3 col-lg-3">
+
+						<div id="block-block-73" class="block block-block">
+							<div class="inner"></div>
+
+							<div class="content">
+								<ul>
+									<li><a href="https://twitter.com/travelegendary"
+										target="_blank">Twitter</a></li>
+									<li><a href="https://www.facebook.com/travelegendary"
+										target="_blank">Facebook</a></li>
+									<li><a href="https://www.instagram.com/travelegendary/"
+										target="_blank">Instagram</a></li>
+									<li><a href="https://vimeo.com/travelegendary"
+										target="_blank">Vimeo</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<!-- END .region-footer-second-->
+					<!-- .region-footer-third-->
+					<div
+						class="region region-footer-third col-xs-12 col-sm-6 col-md-3 col-lg-3">
+
+						<div id="block-block-74" class="block block-block">
+							<div class="inner"></div>
+
+							<div class="content">
+								<ul>
+									<li><a href="/story-behind">About Us</a></li>
+									<li><a href="/contact">Contact</a></li>
+									<li><a href="/terms-and-conditions">Terms and
+											Conditions</a></li>
+									<li><a href="/privacy-policy">Privacy Policy</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<!-- END .region-footer-third-->
+					<!-- .region-footer-fourth-->
+					<div
+						class="region region-footer-fourth col-xs-12 col-sm-6 col-md-3 col-lg-3">
+
+						<div id="block-block-69" class="block block-block">
+							<div class="inner"></div>
+
+							<div class="content">
+								<p>
+									COPYRIGHT <span style="color: #6C80BB;">TRAVEL LEGENDARY</span>
+									2016
+								</p>
+
+							</div>
+						</div>
+
+					</div>
+					<!-- END .region-footer-fourth-->
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
 </html>
