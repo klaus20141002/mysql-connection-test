@@ -1,0 +1,51 @@
+.dexp-dropdown {
+	background: none repeat scroll 0 0 #FFFFFF;
+	display: none;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 99;
+}
+
+.dexp-dropdown ul ul {
+	display: none;
+}
+
+.dexp-dropdown ul ul.menu-open {
+	display: block;
+}
+
+.dexp-menu-mega {
+	padding-left: 15px !important;
+	padding-right: 0 !important;
+	max-width: 100%;
+}
+
+.dexp-menu-mega>.dexp-menu-row>.dexp-menu-col>ul.menu {
+	margin-left: 0 !important;
+}
+
+.dexp-dropdown .menu-open>.dexp-menu-row>.dexp-menu-col>ul.menu {
+	display: block;
+}
+
+.dexp-dropdown li {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.dexp-dropdown ul.menu li a {
+	display: block;
+}
+
+.dexp-dropdown.mobile-open {
+	display: block;
+}
+
+.menu-toggler {
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
